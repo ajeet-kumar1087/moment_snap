@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    command: >
+      sh -c "poetry install --no-root &&
+             poetry run python3 manage.py migrate &&
+             poetry run python3 manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - databases
+    environment:
+      - DATABASE_URL=postgres://user:password@db:5432/moment_snap
+
+  databases:
+    image: postgres:13
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5556:5432"
+    environment:
+      POSTGRES_DB: moment_snap
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+
+volumes:
+  postgres_data:
