@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95fa16f7-f11b-4f5e-9987-cfd8e3dcdf13" name="Changes" comment="" />
+    <list default="true" id="95fa16f7-f11b-4f5e-9987-cfd8e3dcdf13" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moment_snap/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moment_snap/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/templates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/templates/customers/customer_home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moment_snap/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moment_snap/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moment_snap/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moment_snap/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/templates/vendors/add_service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/templates/vendors/vendor_home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendors/views.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,28 +62,40 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/ajeet/Desktop/moment_snap&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "last_opened_file_path": "/Users/ajeet/Desktop/moment_snap/moment_snap/static/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/moment_snap/static/app" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/moment_snap" />
+      <recent name="$PROJECT_DIR$/app/templates" />
+      <recent name="$PROJECT_DIR$/moment_snap/migrations" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/customers/templates/customers" />
+      <recent name="$PROJECT_DIR$/moment_snap/static/app" />
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/templates" />
+      <recent name="$PROJECT_DIR$/app/static" />
+      <recent name="$PROJECT_DIR$/customers" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,6 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1719489871279</updated>
       <workItem from="1719489872441" duration="11472000" />
+      <workItem from="1719511239889" duration="47576000" />
     </task>
     <servers />
   </component>

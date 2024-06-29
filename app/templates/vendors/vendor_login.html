@@ -1,0 +1,22 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Login</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" type="text/css" href="{% static 'app/styles.css' %}">
+</head>
+<body>
+<h2>Vendor Login</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    {% if form.non_field_errors %}
+    <div class="errors">
+        {{ form.non_field_errors }}
+    </div>
+    {% endif %}
+    <button type="submit">Login</button>
+</form>
+</body>
+</html>

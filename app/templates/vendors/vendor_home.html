@@ -1,0 +1,59 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vendor Home</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/vendor_home.css' %}">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Booking History</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+</header>
+
+<section class="vendor-profile">
+    <div class="container">
+        <h1>Welcome to Your Vendor Profile</h1>
+        <div class="profile-details">
+            <h2>Services You Provide</h2>
+            <ul>
+                <li>Birthday Shoot - $200</li>
+                <li>Wedding Photography - $1000</li>
+                <li>Pre-Wedding Shoot - $500</li>
+                <!-- Add more services dynamically from backend if needed -->
+            </ul>
+        </div>
+
+        <div class="booking-history">
+            <h2>Booking History</h2>
+            <table>
+                <thead>
+                <tr>
+                    <th>Client Name</th>
+                    <th>Event Date</th>
+                    <th>Service Type</th>
+                    <th>Amount</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>2024-07-15</td>
+                    <td>Wedding Photography</td>
+                    <td>$1000</td>
+                </tr>
+                <!-- Add more rows dynamically from backend if needed -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+</body>
+</html>

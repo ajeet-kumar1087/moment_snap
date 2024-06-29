@@ -1,11 +1,8 @@
-version: '3.8'
-
 services:
   app:
     build: .
     command: >
-      sh -c "poetry install --no-root &&
-             poetry run python3 manage.py migrate &&
+      sh -c "poetry run python3 manage.py migrate &&
              poetry run python3 manage.py runserver 0.0.0.0:8000"
     volumes:
       - .:/app

@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to MomentSnap</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/home.css' %}">
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to MomentSnap!</h1>
+
+    <!-- Customer Section -->
+    <div class="section">
+        <h2>For Customers</h2>
+        <p>Discover and connect with talented photographers for your special moments.</p>
+        <div class="links">
+            <a href="{% url 'customer_login' %}">Customer Login</a>
+            <a href="{% url 'customer_register' %}">Customer Register</a>
+        </div>
+    </div>
+
+    <!-- Vendor Section -->
+    <div class="section">
+        <h2>For Vendors</h2>
+        <p>Showcase your photography services and reach new clients.</p>
+        <div class="links">
+            <a href="{% url 'vendor_login' %}">Vendor Login</a>
+            <a href="{% url 'vendor_register' %}">Vendor Register</a>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
